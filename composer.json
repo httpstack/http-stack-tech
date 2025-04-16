@@ -1,0 +1,20 @@
+{
+    "name": "cmcintosh/httpstack",
+    "description": "The CodeBase for the website httpstack.tech",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Httpstack\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chris McIntosh",
+            "email": "httpstack@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/laravel": "^12.0"
+    }
+}
